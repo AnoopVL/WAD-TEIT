@@ -1,0 +1,14 @@
+download docker for desktop
+sign up/ in
+docker --version
+docker ps 
+docker images
+go to docker hub abd get open jdk image
+dockerk run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA jshell
+Run any java code
+/exit
+docker stop <container_id>
+docker container rm <container_id>
+docker image prune
